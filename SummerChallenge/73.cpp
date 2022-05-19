@@ -28,7 +28,7 @@ void setZeroes(vector<vector<int>>& a)
             int K=ind.size();
                 for (int k=0;k<K-1;k+=2)
                 {
-                    for (int i=ind[k],j=0;j<c;j++)
+                    for (int i=ind[k],j=0;j<c;j++) 
                         {
                             a[i][j]=0;
                         }
