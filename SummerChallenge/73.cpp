@@ -5,7 +5,7 @@ public:
     
 void setZeroes(vector<vector<int>>& a) 
     {
-        int r=a.size(),c=a[0].size();
+        int r=a.size(),c=a[0].size(); 
         vector <int> ind;
         int l=0,m=0;
 
