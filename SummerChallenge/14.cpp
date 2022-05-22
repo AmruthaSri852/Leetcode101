@@ -24,7 +24,7 @@ public:
           } 
         else 
         {
-            string pfx = str[0];
+            string pfx = str[0]; 
             int size = str.size();
             for (int i = 1; i < size; I++) 
             {
